@@ -238,6 +238,7 @@ body {
   body div {
     background-color: #EDF0D8;
     padding: 2em;
+    margin: .2em;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     width: calc(33.33333% - 26.66667px);

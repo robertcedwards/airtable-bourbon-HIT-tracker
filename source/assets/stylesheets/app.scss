@@ -18,6 +18,7 @@ body {
   div{
     background-color: $light-gray;
     padding: 2em;
+    margin: .2em;
     @include border-bottom-radius(2px);
     @include grid-column(4);
     form{
