@@ -7,7 +7,7 @@
     <title>HIT Tracker - Workout Input</title>
     <link rel="stylesheet" href="assets/stylesheets/app.css">
   </head>
-  <body>
+  <body onload="show();">
     <h1><a href="/">HIT Tracker</a></h1>
     <nav>
       <a href="workout.html"><button>Workout</button><a/>
@@ -18,12 +18,66 @@
       <form method="post"enctype="application/x-www-form-urlencoded" action="">
         <p><label>Machine Name: <input name="machinename" required></label></p>
         <p><label>Weight: <input type=weight name="weight"></label></p>
-        <p><label>Time Under Load: <input type=time name="TUL" required></label></p>
+        <p><label id="chestpress">Time Under Load: <input value="chestpress" type="time"></label></p>
+        <input type="button" value="start" onclick="start1();">
+        <input type="button" value="stop" onclick="stop();">
+        <input type="button" value="reset" onclick="reset()">
         <p><label>Notes: <textarea name="comments"></textarea></label></p>
-        <input id=foo name=foo type=time min="0:00" max="100:59">
-
         <p><button>Submit Exercise</button></p>
       </form>
     </div>
+    <div>
+      <h3>Shoulder Press</h3>
+      <form method="post"enctype="application/x-www-form-urlencoded" action="">
+        <p><label>Machine Name: <input name="machinename" required></label></p>
+        <p><label>Weight: <input type=weight name="weight"></label></p>
+        <p><label id="shoulderpress">Time Under Load: <input value="shoulderpress" type="time"></label></p>
+        <input type="button" value="start" onclick="start2();">
+        <input type="button" value="stop" onclick="stop();">
+        <input type="button" value="reset" onclick="reset()">
+        <p><label>Notes: <textarea name="comments"></textarea></label></p>
+        <p><button>Submit Exercise</button></p>
+      </form>
+    </div>
+    <div>
+      <h3>Lat Pulldown</h3>
+      <form method="post"enctype="application/x-www-form-urlencoded" action="">
+        <p><label>Machine Name: <input name="machinename" required></label></p>
+        <p><label>Weight: <input type=weight name="weight"></label></p>
+        <p><label id="latpulldown">Time Under Load: <input value="latpulldown" type="time"></label></p>
+        <input type="button" value="start" onclick="start3();">
+        <input type="button" value="stop" onclick="stop();">
+        <input type="button" value="reset" onclick="reset()">
+        <p><label>Notes: <textarea name="comments"></textarea></label></p>
+        <p><button>Submit Exercise</button></p>
+      </form>
+    </div>
+    <div>
+      <h3>Chest Press</h3>
+      <form method="post"enctype="application/x-www-form-urlencoded" action="">
+        <p><label>Machine Name: <input name="machinename" required></label></p>
+        <p><label>Weight: <input type=weight name="weight"></label></p>
+        <p><label id="time">Time Under Load: <input value="time" type="time"></label></p>
+        <input type="button" value="start" onclick="start();">
+        <input type="button" value="stop" onclick="stop();">
+        <input type="button" value="reset" onclick="reset()">
+        <p><label>Notes: <textarea name="comments"></textarea></label></p>
+        <p><button>Submit Exercise</button></p>
+      </form>
+    </div>
+    <div>
+      <h3>Chest Press</h3>
+      <form method="post"enctype="application/x-www-form-urlencoded" action="">
+        <p><label>Machine Name: <input name="machinename" required></label></p>
+        <p><label>Weight: <input type=weight name="weight"></label></p>
+        <p><label id="time">Time Under Load: <input value="time" type="time"></label></p>
+        <input type="button" value="start" onclick="start();">
+        <input type="button" value="stop" onclick="stop();">
+        <input type="button" value="reset" onclick="reset()">
+        <p><label>Notes: <textarea name="comments"></textarea></label></p>
+        <p><button>Submit Exercise</button></p>
+      </form>
+    </div>
+  <script src="/js/stopwatch.js"></script>
   </body>
 </html>
