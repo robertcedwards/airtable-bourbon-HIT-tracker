@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HIT Tracker - Workout Input</title>
+    <link rel="stylesheet" href="assets/stylesheets/app.css">
+  </head>
+  <body>
+    <h1><a href="/">HIT Tracker</a></h1>
+    <nav>
+      <a href="workout.html"><button>Workout</button><a/>
+      <a href="summary.html"><button>Summary</button></a>
+    </nav>
+    <div>
+      <h3>Chest Press</h3>
+      <form method="post"enctype="application/x-www-form-urlencoded" action="">
+        <p><label>Machine Name: <input name="machinename" required></label></p>
+        <p><label>Weight: <input type=weight name="weight"></label></p>
+        <p><label>Time Under Load: <input type=time name="TUL" required></label></p>
+        <p><label>Notes: <textarea name="comments"></textarea></label></p>
+        <input id=foo name=foo type=time min="0:00" max="100:59">
+
+        <p><button>Submit Exercise</button></p>
+      </form>
+    </div>
+  </body>
+</html>
