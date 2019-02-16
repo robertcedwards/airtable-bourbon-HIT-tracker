@@ -5,14 +5,29 @@
 body {
   @include grid-container;
   @include grid-column;
-  background-color: whitesmoke;
-  color: #2b2b2b;
   font-family: $font-stack-system;
   h1{
     color:grey
   }
-  p{
-    a{color:green}
+  nav{
+    padding: 1em;
+    button{
+
+    }
+  }
+  div{
+    background-color: $light-gray;
+    padding: 2em;
+    @include border-bottom-radius(2px);
+    @include grid-column(4);
+    form{
+      p{
+        label{
+          input{
+          }
+        }
+      }
+    }
   }
 
 }

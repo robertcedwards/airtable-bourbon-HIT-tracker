@@ -12,11 +12,11 @@ $base-spacing: 1.5em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors
-$blue: #1565c0;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+// Colors Pulled from colormind 2C3029 348DA4 A6D3B8 EDF0D8 FDFCF9
+$blue: #348DA4;
+$dark-gray: #2C3029;
+$medium-gray: #A6D3B8;
+$light-gray: #EDF0D8;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -27,7 +27,7 @@ $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: #fff;
+$viewport-background-color: #2C3029;
 
 // Focus
 $focus-outline-color: transparentize($action-color, 0.4);
