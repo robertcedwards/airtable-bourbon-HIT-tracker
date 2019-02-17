@@ -244,3 +244,33 @@ body {
     width: calc(33.33333% - 26.66667px);
     float: left;
     margin-left: 20px; }
+  body body {
+    font-family: Sans-Serif;
+    margin: 0; }
+  body h1, body h2 {
+    font-size: 20px; }
+  body .voting-form {
+    background: #eee;
+    padding: 20px;
+    margin: 0 0 20px 0; }
+  body select {
+    width: 200px;
+    text-align: center; }
+  body .chart {
+    padding: 20px; }
+  body .chart div {
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    margin: 0 0 3px 0;
+    color: white; }
+  body .chart div:nth-of-type(1) {
+    background-color: #FDBE1A; }
+  body .chart div:nth-of-type(2) {
+    background-color: #F2B6A0; }
+  body .chart div:nth-of-type(3) {
+    background-color: #FFD85A; }
+  body .chart div:nth-of-type(4) {
+    background-color: #830C07; }
+  body .chart div:nth-of-type(5) {
+    background-color: #999999; }

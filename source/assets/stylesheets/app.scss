@@ -30,5 +30,48 @@ body {
       }
     }
   }
+  body {
+    font-family: Sans-Serif;
+    margin: 0;
+  }
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  .voting-form {
+    background: #eee;
+    padding: 20px;
+    margin: 0 0 20px 0;
+  }
+  select {
+    width: 200px;
+    text-align: center;
+  }
+
+  .chart {
+    padding: 20px;
+  }
+  .chart div {
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    margin: 0 0 3px 0;
+    color: white;
+  }
+  .chart div:nth-of-type(1) {
+    background-color: #FDBE1A;
+  }
+  .chart div:nth-of-type(2) {
+    background-color: #F2B6A0;
+  }
+  .chart div:nth-of-type(3) {
+    background-color: #FFD85A;
+  }
+  .chart div:nth-of-type(4) {
+    background-color: #830C07;
+  }
+  .chart div:nth-of-type(5) {
+    background-color: #999999;
+  }
 
 }
