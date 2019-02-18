@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HIT Tracker - Workout Input</title>
     <link rel="stylesheet" href="assets/stylesheets/app.css">
+
+
+
   </head>
   <body onload="show();">
     <h1><a href="/">HIT Tracker</a></h1>
@@ -26,9 +29,9 @@
         <span id="sparkline"></span>
 
         <p><label id="chestpress">Time Under Load: <input value="chestpress" type="time"></label></p>
-        <input type="button" value="start" onclick="start1();">
-        <input type="button" value="stop" onclick="stop();">
-        <input type="button" value="reset" onclick="reset()">
+        <i class="start" onclick="start1();"></i>
+        <i  class="stop" onclick="stop();"></i>
+        <i class="reset" onclick="reset()"></i>
         <p><label>Notes: <textarea name="comments"></textarea></label></p>
         <p><button>Submit Exercise</button></p>
       </form>
@@ -44,8 +47,8 @@
         type: 'line',
         width: '100%',
         height: '50px',
-        lineColor: '#000000',
-        fillColor: '#c0d0f0 ',
+        lineColor: '#348DA4',
+        fillColor: '#A6D3B8 ',
         lineWidth: 2,
         normalRangeMin: 0,
         normalRangeMax: 430,
