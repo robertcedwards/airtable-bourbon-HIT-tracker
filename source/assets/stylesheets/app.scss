@@ -1,6 +1,10 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import "fontawesome.scss";
+@import "solid.scss";
+@import "brands.scss";
+@import "workout.scss";
 
 body {
   @include grid-container;
@@ -27,6 +31,19 @@ body {
           input{
           }
         }
+      }
+      i{
+        @include fa-icon();
+        @extend .fas;
+        content: fa-content($fa-var-adobe);
+        font-size: xx-large;
+
+      }
+      .start{color:green;}
+      .stop{color:red;}
+      .reset{color:black;}
+      span{
+        //@include grid-column(12);
       }
     }
   }
