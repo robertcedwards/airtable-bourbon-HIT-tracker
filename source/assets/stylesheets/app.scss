@@ -7,7 +7,7 @@
 @import "workout.scss";
 
 body {
-  @include grid-container;
+
   @include grid-column;
   font-family: $font-stack-system;
   h1{
@@ -23,8 +23,8 @@ body {
     background-color: $light-gray;
     padding: 2em;
     margin: .2em;
-    @include border-bottom-radius(2px);
-    @include grid-column(4);
+    @include border-bottom-radius(10px);
+    @include grid-column(12);
     form{
       p{
         label{
@@ -35,7 +35,7 @@ body {
       i{
         @include fa-icon();
         @extend .fas;
-        content: fa-content($fa-var-adobe);
+        content: fa-content($fa-var-arrow-circle-right);
         font-size: xx-large;
 
       }
@@ -45,6 +45,18 @@ body {
       span{
         //@include grid-column(12);
       }
+      button {
+        @include grid-column(12);
+        margin:.2em 0 .2em 0 ;
+      }
+    }
+
+    button i{
+      @include fa-icon();
+      @extend .fas;
+      content: fa-content($fa-var-arrow-circle-right);
+      font-size: xx-large;
+
     }
   }
   body {
