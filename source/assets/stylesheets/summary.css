@@ -1,0 +1,28 @@
+body {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
+  body h1 {
+    color: grey; }
+  body nav {
+    padding: 1em; }
+  body div {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; }
+    body div h4 {
+      width: calc(33.33333% - 26.66667px);
+      float: left;
+      margin-left: 20px;
+      float: left; }
+  body span {
+    width: calc(91.66667% - 38.33333px);
+    float: left;
+    margin-left: 20px;
+    height: 50px;
+    float: left; }
+  body span.minmax {
+    width: calc(8.33333% - 21.66667px);
+    float: left;
+    margin-left: 20px; }

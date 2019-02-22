@@ -1,0 +1,31 @@
+@import "bourbon";
+@import "neat";
+
+body {
+  @include grid-column;
+  font-family: $font-stack-system;
+  h1{
+    color:grey;
+  }
+  nav{
+    padding: 1em;
+    button{}
+  }
+  h2{}
+  h3{}
+  div{
+    @include grid-column(12);
+    h4{
+      @include grid-column(4);
+      float: left;
+    }
+  }
+  span{
+    @include grid-column(11);
+    height:50px;
+    float: left;
+  }
+  span.minmax{
+    @include grid-column(1);
+  }
+}
